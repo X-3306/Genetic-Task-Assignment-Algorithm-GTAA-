@@ -12,4 +12,5 @@ applying the fitness function $f(x)$ to each individual $x$, and then selecting 
 # Crossover: 
 selecting a crossover point $p$ and exchanging fragments of the genotypes between two parents to produce two offspring.
 
-# Mutation: randomly changing the value of one or more genes in one individual.
+# Mutation: 
+randomly changing the value of one or more genes in one individual.
