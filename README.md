@@ -4,13 +4,13 @@ This code is an implementation of a genetic algorithm to solve an optimization p
 
 
 # Objective function: 
-$\sum_{i=1}^n\sum_{j=1}^m v_{ij}x_{ij}$, where $v_{ij}$ is the value at position $i,j$ in the vector $v$, and $x_{ij}$ is the value at position $i,j$ in the genotype vector.
+ $\sum_{i=1}^n\sum_{j=1}^m v_{ij}x_{ij}$, where $v_{ij}$ is the value at position $i,j$ in the vector $v$, and $x_{ij}$ is the value at position $i,j$ in the genotype vector.
 
 # Selection: 
-applying the fitness function $f(x)$ to each individual $x$, and then selecting the $k$ best individuals based on the value of $f(x)$.
+ applying the fitness function $f(x)$ to each individual $x$, and then selecting the $k$ best individuals based on the value of $f(x)$.
 
 # Crossover: 
-selecting a crossover point $p$ and exchanging fragments of the genotypes between two parents to produce two offspring.
+ selecting a crossover point $p$ and exchanging fragments of the genotypes between two parents to produce two offspring.
 
 # Mutation: 
-randomly changing the value of one or more genes in one individual.
+ randomly changing the value of one or more genes in one individual.
